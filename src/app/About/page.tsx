@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer/footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -13,15 +14,15 @@ export default function About() {
 
                         {/* Navigation */}
                         <nav className="hidden md:flex items-center gap-8">
-                            <a href="/" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Home</a>
-                            <a href="#" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Product</a>
-                            <a href="#" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Pricing</a>
-                            <a href="#" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Contact</a>
+                            <Link href="/" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Home</Link>
+                            <Link href="#" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Product</Link>
+                            <Link href="#" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Pricing</Link>
+                            <Link href="#" className="text-sm font-bold text-[#727272] hover:text-[#252b42]">Contact</Link>
                         </nav>
 
                         {/* Action Buttons */}
                         <div className="flex items-center gap-6">
-                            <a href="#" className="text-sm font-bold text-[#23a6f0] hover:underline">Login</a>
+                            <Link href="#" className="text-sm font-bold text-[#23a6f0] hover:underline">Login</Link>
                             <button className="bg-[#23a6f0] text-white text-sm font-bold px-6 py-2 rounded hover:bg-[#1d8cdb]">
                                 Become a Member
                             </button>
@@ -158,15 +159,10 @@ export default function About() {
                             className="w-[19px] h-[23px]"/>
                         </div>
                     </div>
-
-                    {/* Action Button */}
-                    <div className="absolute bottom-8 left-8">
-                        <button className="px-6 py-4 bg-[#23a6f0] rounded-full text-white font-bold hover:bg-[#1d8cdb]">
-                            Learn More
-                        </button>
-                    </div>
                 </div>
             </div>
+
+            {/* Meet Our Team */}
         <div className="w-full bg-white py-16 px-6">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-[#252b42]">Meet Our Team</h2>
@@ -350,11 +346,11 @@ export default function About() {
                             <div className="w-[440px] text-white text-sm font-normal font-['Montserrat'] leading-tight tracking-tight">
                                 The gradual accumulation of information about atomic and small-scale behavior during the first quarter of the 20th.
                             </div>
-                            <div className="px-10 py-[15px] rounded-[5px] border border-[#f9f9f9] flex justify-center items-center">
+                            <button className="px-52 py-[15px] rounded-[5px] border border-[#f9f9f9] flex justify-center items-center">
                                 <div className="text-[#f9f9f9] text-sm font-bold font-['Montserrat'] leading-snug tracking-tight">
                                     Button
                                 </div>
-                            </div>
+                            </button>
                         </div>
 
                         {/* Placeholder for additional content or image */}
