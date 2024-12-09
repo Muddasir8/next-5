@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-      <footer className="bg-white">
+      <div className="w-full bg-white">
           {/* Top Section */}
-          <section className="bg-[#f9f9f9] py-10">
+          <section className="bg-[#f9f9f9]  py-10">
               <div className="max-w-screen-xl mx-auto flex justify-between items-center">
                   <div className="flex flex-col">
                       <h1 className="text-[#252b42] text-2xl font-bold leading-loose tracking-tight">Bandage</h1>
@@ -97,6 +97,6 @@ export default function Footer() {
                   </div>
               </div>
           </section>
-      </footer>
+      </div>
   );
 }

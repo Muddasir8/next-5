@@ -9,7 +9,7 @@ export default function Home() {
     <Navbar/>
 
      {/* new collection */}
-    <div className="w-[1439px] h-[716px] relative bg-white rounded-[5px] border border-[#dedede]">
+    <div className="w-[1439px] h-[716px] relative bg-white rounded-[5px] border mx-auto border-[#dedede]">
       <div className="w-[1439px] h-[716px] left-0 top-0 absolute">
         <div className="w-[1440px] h-[716px] left-0 top-0 absolute">
           <Image
@@ -38,7 +38,7 @@ export default function Home() {
     </div>
     
      {/* editor pick */}
-    <div className="h-[770px] relative bg-[#f9f9f9]">
+    <div className="w-[1440px] h-[770px] relative mx-auto bg-[#f9f9f9]">
         <div className="py-20 left-[195px] top-0 absolute flex-col justify-start items-center gap-12 inline-flex">
           <div className="h-[62px] flex-col justify-start items-center flex">
             <div className="h-[62px] flex-col justify-start items-center gap-2.5 flex">
@@ -134,7 +134,7 @@ export default function Home() {
       </div>
       
        {/* best seller product */}
-      <div className="w-[1440px] h-[1652px] relative bg-white">
+      <div className="w-[1440px] h-[1652px] relative mx-auto bg-white">
         <div className="h-[1652px] py-20 left-[195px] top-0 absolute flex-col justify-start items-center gap-20 inline-flex">
           <div className="h-[102px] flex-col justify-start items-center flex">
             <div className="h-[102px] flex-col justify-start items-center gap-2.5 flex">
@@ -351,7 +351,7 @@ export default function Home() {
       </div>
       
        {/* vita classic */}
-      <div className="w-[1440px] h-[709px] relative bg-white rounded-[5px] border border-[#dedede]">
+      <div className="w-[1440px] h-[709px] relative bg-white rounded-[5px] border mx-auto border-[#dedede]">
         <div className="w-[1440px] h-[709px] left-0 top-0 absolute">
           <div className="w-[1440px] h-[709px] left-0 top-0 absolute">
             <div className="w-[1440px] h-[711px] left-0 top-0 absolute bg-[#23856d]" />
@@ -383,7 +383,7 @@ export default function Home() {
       </div>
       
        {/* part os the neural */}
-      <div className="w-[1440px] h-[682px] relative bg-white">
+      <div className="w-[1440px] h-[682px] relative mx-auto bg-white">
         <div className="w-[1439px] left-0 top-0 absolute justify-end items-center gap-[30px] inline-flex">
           <div className="w-[704px] h-[682px] relative">
             <div className="w-[704px] h-[682px] left-0 top-0 absolute">
@@ -413,7 +413,7 @@ export default function Home() {
       </div>
 
        {/* Feauture posts */}
-      <div className="w-[1440px] h-[1044px] relative bg-white">
+      <div className="w-[1440px] h-[1044px] relative m-auto bg-white">
   <div className="h-[1044px] py-28 left-[195px] top-0 absolute flex-col justify-start items-center gap-20 inline-flex">
     <div className="h-[134px] flex-col justify-start items-center flex">
       <div className="h-[134px] flex-col justify-start items-center gap-2.5 flex">
