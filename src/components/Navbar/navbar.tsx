@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Navbar() {
     return (
-        <header className="w-full bg-white">
+        <header className="w-full mx-auto bg-white">
             {/* Top bar */}
             <div className="w-full bg-[#252b42] px-4 py-2 flex justify-between items-center text-white">
                 {/* Contact Info */}

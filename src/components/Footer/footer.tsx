@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-      <div className="w-full bg-white">
+      <div className="w-full mx-auto bg-white">
           {/* Top Section */}
           <section className="bg-[#f9f9f9]  py-10">
               <div className="max-w-screen-xl mx-auto flex justify-between items-center">
