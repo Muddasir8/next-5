@@ -18,7 +18,6 @@ export default function Footer() {
               </div>
           </section>
 
-          {/* Divider */}
           <div className="border-t border-[#e6e6e6]" />
 
           {/* Main Footer Content */}
@@ -93,7 +92,6 @@ export default function Footer() {
               <div className="max-w-screen-xl mx-auto flex justify-between items-center">
                   <p className="text-[#727272] text-sm font-bold">Made with love by Finland. All rights reserved.</p>
                   <div className="flex gap-4">
-                      {/* Social icons or other footer links can go here */}
                   </div>
               </div>
           </section>
